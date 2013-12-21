@@ -1,3 +1,28 @@
 #!/usr/bin/env node
+
+// module dependencies
 var join = require('path').join;
-require('v8-argv')('--harmony', join(__dirname, '../node_modules/hydro/bin/_hydro'), '--setup', join(__dirname, '../hydro.conf.js'));
+
+// store
+var argv = [];
+
+// script to proxy to
+argv.push(join(__dirname, '../node_modules/hydro/bin/_hydro');
+
+// common setup
+argv.push('--setup');
+argv.push(join(__dirname, '../hydro.conf.js'));
+
+// project setup
+argv.push('--setup');
+argv.push(join(process.pwd(), 'goodwin.conf.js'));
+
+// project per-env setup
+var env = process.env.GOODWIN_ENV;
+if (env) {
+  argv.push('--setup');
+  argv.push(join(process.pwd(), 'goodwin.' + env + '.js'));
+}
+
+// proxy to argv
+require('v8-argv').apply(null, argv);
