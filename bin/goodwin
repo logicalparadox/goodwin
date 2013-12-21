@@ -7,7 +7,7 @@ var join = require('path').join;
 var argv = [];
 
 // script to proxy to
-argv.push(join(__dirname, '../node_modules/hydro/bin/_hydro');
+argv.push(join(__dirname, '../node_modules/hydro/bin/_hydro'));
 
 // common setup
 argv.push('--setup');
@@ -15,13 +15,13 @@ argv.push(join(__dirname, '../hydro.conf.js'));
 
 // project setup
 argv.push('--setup');
-argv.push(join(process.pwd(), 'goodwin.conf.js'));
+argv.push(join(process.cwd(), 'goodwin.conf.js'));
 
 // project per-env setup
 var env = process.env.GOODWIN_ENV;
 if (env) {
   argv.push('--setup');
-  argv.push(join(process.pwd(), 'goodwin.' + env + '.js'));
+  argv.push(join(process.cwd(), 'goodwin.' + env + '.js'));
 }
 
 // proxy to argv
