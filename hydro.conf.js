@@ -4,6 +4,7 @@ module.exports = function(hydro) {
     plugins: [
       'hydro-chai',
       'hydro-file-suite',
+      'hydro-minimal',
     ],
     formatter: 'hydro-doc',
     chai: {
