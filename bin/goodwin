@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var join = require('path').join;
+require('v8-argv')('--harmony', join(__dirname, '../node_modules/hydro/bin/_hydro'), '--setup ' + join(__dirname, 'hydro.conf.js'));

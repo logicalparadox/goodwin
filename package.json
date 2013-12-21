@@ -1,0 +1,28 @@
+{
+  "name": "goodwin",
+  "version": "0.0.0",
+  "description": "Opinionated Node.js testing via Hydro and Chai",
+  "homepage": "https://github.com/logicalparadox/goodwin",
+  "author": "Jake Luer <jake@alogicalparadox.com> (http:://alogicalparadox.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:logicalparadox/goodwin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logicalparadox/goodwin/issues"
+  },
+  "scripts": {
+    "test": "hydro"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "chai": "~1.8.1",
+    "chai-spies": "~0.5.1",
+    "hydro": "https://github.com/hydrojs/hydro/tarball/refactor/cli",
+    "hydro-chai": "~0.1.0",
+    "hydro-doc": "0.0.2",
+    "hydro-file-suite": "0.0.1",
+    "v8-argv": "~0.2.0"
+  }
+}
