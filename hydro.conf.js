@@ -8,7 +8,7 @@ module.exports = function(hydro) {
     ],
     formatter: 'hydro-doc',
     chai: {
-      style: [ 'should' ],
+      styles: [ 'should' ],
       showStack: true,
       showDiff: true
     }
