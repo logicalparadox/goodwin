@@ -24,6 +24,7 @@
     "hydro-doc": "0.0.2",
     "hydro-file-suite": "0.0.1",
     "v8-argv": "~0.2.0",
-    "hydro-minimal": "0.0.1"
+    "hydro-minimal": "0.0.1",
+    "hydro-tdd": "0.0.1"
   }
 }

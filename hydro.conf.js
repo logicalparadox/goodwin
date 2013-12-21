@@ -4,11 +4,11 @@ module.exports = function(hydro) {
     plugins: [
       'hydro-chai',
       'hydro-file-suite',
-      'hydro-minimal',
+      'hydro-tdd',
     ],
     formatter: 'hydro-doc',
     chai: {
-      styles: [ 'should' ],
+      styles: [ 'assert', 'should' ],
       showStack: true,
       showDiff: true
     }
