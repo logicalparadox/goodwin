@@ -20,7 +20,7 @@
     "chai": "~1.8.1",
     "chai-spies": "~0.5.1",
     "hydro": "~0.8.7",
-    "hydro-chai": "~0.1.0",
+    "hydro-chai": "https://github.com/hydrojs/hydro-chai/tarball/feature/global-chai",
     "hydro-doc": "0.0.2",
     "hydro-file-suite": "0.0.1",
     "v8-argv": "~0.2.0",
