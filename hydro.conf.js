@@ -9,8 +9,10 @@ module.exports = function(hydro) {
     formatter: 'hydro-doc',
     chai: {
       styles: [ 'assert', 'should' ],
+      plugins: [ 'chai-spies' ],
       showStack: true,
-      showDiff: true
+      showDiff: true,
+      global: true
     }
   });
 }
