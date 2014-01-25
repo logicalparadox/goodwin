@@ -19,12 +19,12 @@
   "dependencies": {
     "chai": "~1.8.1",
     "chai-spies": "~0.5.1",
-    "hydro": "~0.8.7",
-    "hydro-chai": "https://github.com/hydrojs/hydro-chai/tarball/feature/global-chai",
+    "hydro": "~0.8.11",
     "hydro-doc": "0.0.2",
     "hydro-file-suite": "0.0.1",
     "v8-argv": "~0.2.0",
     "hydro-minimal": "0.0.1",
-    "hydro-tdd": "0.0.1"
+    "hydro-tdd": "0.0.1",
+    "hydro-chai": "~0.2.0"
   }
 }
